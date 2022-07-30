@@ -12,7 +12,7 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 programación? (Valor 1 punto)
 
               a. Verdadero
-              b. Falso
+          
 
 2. Se tiene la siguiente lista con 6 elementos, teniendo en cuenta que es una cola
 contesta lo siguiente: (Valor 1 punto)
