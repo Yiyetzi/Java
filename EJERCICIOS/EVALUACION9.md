@@ -70,5 +70,26 @@ i. Ejemplo. La última camisa agregada es: Camisa favorita.
 d. Finalmente, crea un bucle condicional donde mientras la pila no esté vacía,
 imprimas la camisa que se está sacando.
 
+                        package com.mycompany.evaluacion9;
+                        import java.util.Stack;
 
-           Tu código aqui
+                        /**
+                         *
+                         * @author linux
+                         */
+                        public class Evaluacion9 {
+
+                            public static void main(String[] args) {
+                            Stack<String>camisas=new Stack<>();
+                            camisas.push("Camisa Negra");
+                            camisas.push("Camisa Tipo Polo");
+                            camisas.push("Camisa Manga Larga");
+                            System.out.println("La ultima camisa agregada es : "+ camisas.peek());
+
+                            while (!camisas.isEmpty()){
+                                System.out.println("Tipo de "+camisas.pop());
+                            }
+
+                            }
+                        }
+
