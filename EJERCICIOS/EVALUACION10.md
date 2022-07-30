@@ -59,4 +59,31 @@ es: “Nombre a eliminar”.
 
 i. Ejemplo. El próximo nombre a eliminar es: Nombre 4.
 
-      Tu código aqui
+            import java.util.Queue;
+            import java.util.LinkedList;
+
+            /**
+             *
+             * @author linux
+             */
+            public class Evaluacion10 {
+
+                public static void main(String[] args) {
+                Queue<String>usuarios = new LinkedList<>();
+
+                usuarios.add("Francisco");
+                usuarios.add("Fernanda");
+                usuarios.add("María");
+                usuarios.add("Alfonso");
+                usuarios.add("Yiyetzi");
+
+                usuarios.remove();
+                usuarios.remove();
+                usuarios.remove();
+
+                    System.out.println("El nombre a eliminar es: "  + usuarios.remove());
+                    System.out.println("El próximo nombre a eliminar es: "  + usuarios.remove());
+
+                }
+            }
+
