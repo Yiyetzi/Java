@@ -10,16 +10,12 @@ clara, según sea el caso.
 1. Java es un lenguaje compilable, lo que significa que el código que escribimos es
 traducido a un lenguaje que la computadora entiende. (Valor 1 punto)
 
-        a. Falso
         b. Cierto
 
 2. En Java, ¿cuál es el propósito de escribir comentarios en el código? (Valor 1 punto)
 
         a. Proporcionan notas legibles para humanos que aclaran el pensamiento.
-        b. Proporcionan controles que el compilador debe pasar.
-        c. Indican cómo se imprimen las palabras en la pantalla.
-        d. Sólo están presentes en el código de compilación.
-
+      
 3. El siguiente código se ejecutará sin error. (Valor 1 punto)
 
 public class LanguagesFacts{
@@ -34,8 +30,7 @@ public class LanguagesFacts{
   
 }
 
-        a. Cierto
-        b. Falso
+              b. Falso
 
 4. ¿Qué imprimirá el siguiente código en la pantalla? (Valor 1 punto)
 
@@ -49,12 +44,12 @@ public class HelloYou{
   
 }
 
-        a. ¡Hola amigo!
+       
         b. Este código contiene un error.
-        c. "¡Hola amigo!"
+       
 
 
-5. ¿Qué le falta a este programa en Java? (Valor 1 punto)
+5. ¿Qué le falta a este programa en Java? (Valor 1 punto) - pendiente
 
 public class HechosLenguaje{
 
@@ -80,15 +75,17 @@ public class HolaMundo{
   
 }
 
-          a. HolaMundo.java
-          b. No hay restricciones en el nombre del archivo en Java.
-          c. HolaMundo.class
+          a. HolaMundo.java 
+          
 
 7. Completa la clase HolaTu del programa HolaTu.java, para que imprima “¡Hola
 Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
 
+        import java.util.Scanner;
         public class HolaTu {
           public static void main(String[] args) {
+                System.out.println("Ingresa tu nombre");
+                Mi_nombre = in.next.line
           }
           }
 
