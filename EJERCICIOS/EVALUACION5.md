@@ -11,6 +11,8 @@ breve y clara.
 
 1. ¿Cuál es la sintaxis de la estructura switch - case en Java? (Valor 2)
 
+            switch (
+
 2. ¿Cual de las siguientes oraciones es correcta acerca del default dentro de la
 estructura switch - case? (Valor 1)
 
