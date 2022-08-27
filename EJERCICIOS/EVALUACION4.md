@@ -13,6 +13,21 @@ envíos de compras a minoristas. (Valor 5 puntos)
                     public static void main(String[] args) {
                       double costoArticulo = 30.99;
                       boolean listoEviar=false;
+                      
+                      if (costoArticulo > 24.00)
+                      {
+                        System.out.println("¡El valor del articulo es alto!");
+                     
+                     if (listoEviar ==true) 
+                     {
+                        System.out.println("Enviado");
+                     }
+                     else
+                     {
+                        System.out.println("Pedido no listo");
+                     }
+                     }
+                     
                     }
                   }
 
@@ -28,7 +43,7 @@ está listo para enviarse. Escribe un enunciado if-then-else que:
 
 Salida:
 
-            ¡El valor del artículo es alto!
+            ¡El valor del articulo es alto!
             Pedido no listo
 
 2. Realiza un programa en java que imprima los primeros 15 elementos de alguna de
