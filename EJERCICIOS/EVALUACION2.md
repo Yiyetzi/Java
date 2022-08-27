@@ -59,7 +59,10 @@ se muestra a continuación: (Valor 2 puntos)
                        String nombre = "James Gosling";
 
                        int yearCreado = 1995;
-
+                       
+                       System.out.println(nombre);
+                       
+                       System.out.println(yearCreado);
                       }
 
                     }
@@ -67,37 +70,9 @@ se muestra a continuación: (Valor 2 puntos)
 a. Dentro de main(), use System.out.println() para imprimir la variable
 nombre.
 
-                    public class Creator {
-
-                      public static void main(String[] args) {
-
-                       String nombre = "James Gosling";
-
-                       int yearCreado = 1995;
-                       
-                       System.out.println(nombre);
-
-                      }
-
- }
 
 b. Use el mismo comando para imprimir yearCreado.
 
-                    public class Creator {
-
-                      public static void main(String[] args) {
-
-                       String nombre = "James Gosling";
-
-                       int yearCreado = 1995;
-                       
-                       System.out.println(nombre);
-                       
-                       System.out.println(yearCreado);
-
-                      }
-
- }
 c. Escribe la salida.
           
                               James Gosling
@@ -116,6 +91,10 @@ tenemos el siguiente código definido: (Valor 2 puntos)
                   public static void main(String[] args) {
                     //Aquí es donde vas a definir tu variable
                     //Aquí es donde vas a imprimir tu variable
+                 
+                 int numComentarios = 6;  
+                 
+                 System.out.print(numComentarios);
                     }
                     //Este es el final de la class
                   }
@@ -139,6 +118,11 @@ archivo es CuotaMercado.java: (Valor 2 puntos)
 
               public class CuotaMercado {
                 public static void main(String[] args) {
+                
+                double androidCuota = 70.97;
+                
+                System.out.println(androidCuota);
+                
                 }
               }
 
@@ -160,6 +144,11 @@ archivo es Booleans.java: (Valor 2 puntos)
 
               public class Booleans {
                 public static void main(String[] args) {
+                
+                boolean intsPuedeAlmacenarDecimales = false;
+                
+                System.out.println(intsPuedeAlmacenarDecimales);
+                
                 }
               }
 
@@ -171,14 +160,18 @@ b. Imprime la variable intsPuedeAlmacenarDecimales.
 
 c. Escribe la salida.
 
-                Salida:
-                70.97
-
+               false
+               
 12. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Char.java: (Valor 2 puntos)
 
               public class Char {
                 public static void main(String[] args) {
+                //Yiyetzi
+                char primerLetra='Y';
+                
+                System.out.println(primerLetra);
+                                
                 }
               }
     
@@ -193,13 +186,17 @@ d. Escribe la salida.
 
 
                 Salida:
-                M
+                Y
 
 13. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Poema.java: (Valor 2 puntos)
 
               public class Poema {
                 public static void main(String[] args) {
+                
+                String verso = “Aqui no suceden cosas de mayor trascendencia que las rosas.”;
+                
+                System.out.println(verso);
                 }
               }
     
@@ -212,14 +209,34 @@ c. Escribe la salida.
 
 
                 Salida:
-                Aquí no suceden cosas de mayor trascendencia que las rosas.
+                Aqui no suceden cosas de mayor trascendencia que las rosas.
 
 14. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es MiPerfil.java: (Valor 3 puntos)
 
-              public class MyProfile {
+              public class MiPerfil {
                 public static void main(String[] args) {
-
+                
+                String nombre = "Yiyetzi Flores";
+                
+                int edad=34;
+                
+                double salarioDeseado = 20350.40;
+                
+                char genero='f';
+                
+                boolean buscandoTrabajo = true;
+                
+                System.out.println(nombre);
+                
+                System.out.println(edad);
+                
+                System.out.println(salarioDeseado);
+                
+                System.out.println(genero);
+                
+                System.out.println(buscandoTrabajo);
+               
                 }
               }
     
@@ -246,9 +263,12 @@ f. Iimprime el valor de cada una de las variables, una por cada línea.
 g. Escribe la salida.
 
 
-              Salida:
-              Mi Nombre
-              22
-              500000.01
-              n
-              true
+              Yiyetzi Flores
+                
+                34
+                
+                20350.40
+                
+                f
+                
+                true
