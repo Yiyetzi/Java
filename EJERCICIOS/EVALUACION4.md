@@ -54,7 +54,43 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 
 1, 3, 5, 7, 9, 11, 13, 15, 17, .... así sucesivamente.
 
+                                               public class SerieImp{
+                                                  public static void main(String[] args) {
+
+                                                  int n=15;
+
+                                                  for (int i=1; i<=n; i++)
+                                                  {
+                                                      if(i%2==1)
+                                                      {
+                                                          System.out.print(i+ ",");
+                                                      }
+                                                  }
+
+                                                  }
+
+                                              }
+
+
+
 ● Serie de Fibonacci
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... así sucesivamente.
+
+                                          public class SerieFibonacci{
+                                              public static void main(String[] args){
+
+                                                  int i=1;
+                                                  int n=15;
+                                                  int primerTermino=0;
+                                                  int segundoTermino=1;
+
+                                                  while (i<=n){
+                                                      System.out.print(primerTermino + ", ");
+                                                      int terminoActual=primerTermino + segundoTermino;
+                                                      primerTermino=segundoTermino;
+                                                      segundoTermino=terminoActual;
+                                                      i++;
+                                                  }
+                                              }
 
