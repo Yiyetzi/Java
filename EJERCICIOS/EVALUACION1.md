@@ -44,10 +44,8 @@ public class HelloYou{
   
 }
 
-       
-        b. Este código contiene un error.
-       
-
+        ¡Hola amigo!
+  
 
 5. ¿Qué le falta a este programa en Java? (Valor 1 punto) - pendiente
 
@@ -57,10 +55,7 @@ public class HechosLenguaje{
   
 }
 
-          a. Las llaves que marcan el alcance de la clase.
-          b. La línea para compilar código: javac HechosLenguaje.java
-          c. Un comentario de una sola línea.
-          d. El método main().
+               d. El método main().
 
 
 6. ¿Cuál sería el nombre del archivo si contuviera el siguiente código? (Valor 1 punto)
@@ -81,30 +76,32 @@ public class HolaMundo{
 7. Completa la clase HolaTu del programa HolaTu.java, para que imprima “¡Hola
 Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
 
-        import java.util.Scanner;
         public class HolaTu {
           public static void main(String[] args) {
-                System.out.println("Ingresa tu nombre");
-                Mi_nombre = in.next.line
-          }
+                System.out.println("¡Hola Yiyetzi!!");
+           }
           }
 
 Salida:
-¡Hola  ́nombre_del_programador ́!!
+¡Hola  ́Yiyetzi!!
 
 
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
 que se llama LasEscondidas.java. (Valor 2 puntos)
 
-public class LasEscondidas {
+                        public class LasEscondidas {
 
-  public static void main(String[] args) {
-  
-   System.out.println("Juguemos a las escondidas.");
-    
-  }
-  
-}
+                          public static void main(String[] args) {
+
+                           System.out.println("Juguemos a las escondidas.");
+                           System.out.println("Tres...");
+                           System.out.println("Dos...");
+                           System.out.println("Uno...");
+                           System.out.println("¡Listos o no, aqui voy!");
+
+                          }
+
+                        }
 
           a. Debajo de la declaración de impresión System.out.println("Juguemos a las
           escondidas");, usando System.out.print(), genera las siguientes dos declaraciones:
@@ -125,11 +122,12 @@ texto sin formato. (Valor 2 puntos)
               public static void main(String[] args) {
                 System.out.println("¡Hola Java!");
                 System.out.println("Naciste en 1995.");
-                Sun Microsystems anunció el lanzamiento de Java en 1995
+                //Sun Microsystems anunció el lanzamiento de Java en 1995
                 System.out.println("Fuiste creado por James Gosling.");
-                James Gosling es un ingeniero canadiense que
+                /*James Gosling es un ingeniero canadiense que
                 creó Java mientras trabajaba en Sun Microsystems.
-                ¡Su número favorito es la raíz cuadrada de 2!
+                ¡Su número favorito es la raíz cuadrada de 2!*/
+                
                 System.out.println("¡Eres un lenguaje divertido!");
               }
             }
@@ -150,7 +148,9 @@ de tal manera que puedas ver impreso el mensaje: ¡Eres un lenguaje divertido!
 
 c. Escribe la salida del programa.
 
-
+                ¡Hola Java!
+                Naciste en 1995.
+                ¡Eres un lenguaje divertido!
 
 10. Escribe el contenido de un programa en java que lleva por nombre
 Evaluacion.java con las siguientes características: (Varlor 2 puntos)
@@ -173,3 +173,15 @@ d. Debajo del comentario, escribe una declaración que imprima lo siguiente:
 
 e. Escribe la salida del programa.
 
+public class Evaluacion {
+
+                        public static void main(String[] args) {
+                         //El metodo main ejecuta las tareas de la clase
+                                System.out.println("¡Mi primer programa Java desde cero!");  
+                                }
+
+                       }
+
+salida: 
+
+¡Mi primer programa Java desde cero!
