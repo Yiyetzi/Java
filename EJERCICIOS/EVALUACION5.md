@@ -32,9 +32,13 @@ estructura switch - case? (Valor 1)
       
 3. ¿Cuál es una afirmación incorrecta de la estructura switch – case? (Valor 1)
 
-      
+        a. La instrucción switch no nos permite reemplazar varias construcciones
+        if-else.
         b. Los tipos de datos que puede evaluar un switch - case son short, int, byte o
         char.
+        c. El valor para un case debe ser del mismo tipo de datos que la variable en el
+        switch.
+        
      
 4. ¿Qué líneas del siguiente código tienen algún error? (Valor 2)
 
