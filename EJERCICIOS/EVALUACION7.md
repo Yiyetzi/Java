@@ -45,7 +45,7 @@ clara, según sea el caso.
         
 8. Identifica las partes de una clase:
 
-![image](https://user-images.githubusercontent.com/101668305/187304311-cddf31f9-a90e-473b-81e7-6ac1ad89d7ec.png)
+![image](https://user-images.githubusercontent.com/101668305/187740862-e1ef1e5f-ecc2-4a07-8304-4efb2bfd3cd2.png)
 
 
 9. Deberás crear un programa que forme parte de un módulo para el sistema de una
