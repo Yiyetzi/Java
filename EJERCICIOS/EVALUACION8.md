@@ -9,7 +9,7 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 1. De los siguientes métodos de la clase Scanner, escribe cuál es la función que
 realiza cada uno de ellos. (Valor 1 punto por respuesta, valor total 8 puntos)
 
-![image](https://user-images.githubusercontent.com/91554777/180586209-3b52cbdf-7038-4243-9f5b-05a6ee157f76.png)
+![image](https://user-images.githubusercontent.com/101668305/187753315-c9c16743-a368-42df-8898-82850a81ae9e.png)
 
 2. De las siguientes dos líneas de código, ¿Cuál será el resultado de aplicar ese
 método? (Valor 1 punto)
