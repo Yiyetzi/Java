@@ -36,6 +36,8 @@ para llegar a ella. (Valor 3 puntos)
 
 ![imagen](https://user-images.githubusercontent.com/91554777/187002220-d3015664-2d09-4733-aff2-475127482243.png)
 
+d.20,40,50,30,80
+
           
           
                               import java.util.Arrays;
