@@ -77,7 +77,35 @@ ordenarlo por el método de ordenamiento de inserción: (Valor 3 puntos)
 
 ![imagen](https://user-images.githubusercontent.com/91554777/187002270-3dc86c99-26fd-436c-8427-ecda05393c96.png)
 
-          TU RESPUESTA AQUI
+                              import java.util.Arrays;
+                              public class Inser {
+
+                                  void ordInser(int arreglo[]){
+                                      int longitud =arreglo.length;
+
+                                      for (int i=1; i<longitud;i++){
+                                          int key = arreglo[i];
+                                          int j =i-1;
+
+                                       while (j>=0 && key<arreglo[j]){
+                                           arreglo[j+1]=arreglo[j];
+                                           --j;
+                                       }
+                                       arreglo[j+1]=key;
+                                      }
+                                  }
+                                  public static void main(String[] args) {
+
+                                      int[] datos ={50,20,40,80,30};
+                                      System.out.println("Arreglo desordendo: ");
+                                      System.out.println(Arrays.toString(datos));
+                                      Inser is =new Inser();
+                                      is.ordInser(datos);
+                                      System.out.println("Arreglo ordendo de manera ascendente: ");
+                                      System.out.println(Arrays.toString(datos));
+                                  }
+                              }
+
           
 6. Completa el siguiente código de tal forma que el resultado obtenido sea el que se
 muestra en la imagen: (Valor 3 puntos)
