@@ -38,7 +38,7 @@ para llegar a ella. (Valor 3 puntos)
 
           TU RESPUESTA AQUI
           
-          ![image](https://user-images.githubusercontent.com/101668305/188284015-f114cbb8-350b-4db0-9f04-2ac7e0140054.png)
+       d.20,40,50,30,80
 
           
 5. Se tiene el siguiente arreglo con 5 elementos, desarrolla el procedimiento para
