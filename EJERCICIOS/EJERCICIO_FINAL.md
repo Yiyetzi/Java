@@ -54,7 +54,7 @@ INICIAMOS CREANDO EL FRAME, LA PARTE GRÁFICA
                     eventoLimpiar(); //Eventos asociados al botón de limpiar "C" de la calculadora
                 }
                 private void initDisplay(){
-                    display = new JLabel("0"); //Inicio JLabel
+                    display = new JLabel("0"); //Inicio JLabel numero cero
                     display.setBounds(15, 15, 245, 60); //Posición y dimensiones
                     display.setOpaque(true); //Para poder darle un color de fondo
                     display.setBackground(Color.BLACK); //Color de fondo
@@ -132,7 +132,7 @@ NOTA: AQUI TENDREMOS UNA SITUACIÓN QUE TENDRÁS QUE CORREGIR
                       public void actionPerformed(ActionEvent e) {
                           boolean nuevoNumero = true;
                           //Si es un nuevo número y no es 0, sustituyo el valor del display
-                          if (nuevoNumero){
+                          if (nuevoNumero){//que esta pasando checar
                               if (!textoBotones[numBoton].equals("0")){
                                   display.setText(textoBotones[numBoton]);
                                   nuevoNumero = false; //Ya no es un nuevo número
@@ -192,7 +192,7 @@ NOTA: AQUI TENDREMOS UNA SITUACIÓN QUE TENDRÁS QUE CORREGIR
 
                                   private double resultado() {
                                       throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-                                  }
+                                  }exit java
                           });
                       }
                   }
