@@ -10,28 +10,23 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 1. ¿Cómo funciona el método de ordenamiento de la burbuja (Bubble Sort)? (Valor 1
 punto)
 
-          a. Funciona eligiendo un elemento como pivote y divide la matriz dada
-          alrededor del pivote elegido.
           b. Funciona revisando cada elemento de la lista que va a ser ordenada con el
           siguiente, intercambiándolos de posición si están en el orden equivocado.
-          c. Funciona dividiendo la matriz de entrada en dos mitades, se llama a sí
-          mismo para las dos mitades, y luego fusiona las dos mitades ordenadas.
+         
 
 2. ¿Qué hace el método de ordenamiento de inserción (Insertion Sort)? (Valor 1
 punto)
 
-          a. Inserta un elemento en la posición correcta dentro de una lista que está
-          desordenada.
+         
           b. Inserta un elemento en la posición correcta dentro de una lista que no está
           ordenada.
-          c. Inserta un elemento solo en la primera posición dentro de una list
+          
           
 
 3. Este ordenamiento sigue el principio "divide y vencerás", es un ordenamiento
 rápido. (Valor 1 punto)
 
-            a. Burbuja (Bubble sort)
-            b. Inserción (Insertion sort)
+           
             c. QuickSort
             
 4. Se tiene el siguiente arreglo con 5 elementos, después de finalizar la primera
@@ -42,6 +37,9 @@ para llegar a ella. (Valor 3 puntos)
 ![imagen](https://user-images.githubusercontent.com/91554777/187002220-d3015664-2d09-4733-aff2-475127482243.png)
 
           TU RESPUESTA AQUI
+          
+          ![image](https://user-images.githubusercontent.com/101668305/188284015-f114cbb8-350b-4db0-9f04-2ac7e0140054.png)
+
           
 5. Se tiene el siguiente arreglo con 5 elementos, desarrolla el procedimiento para
 ordenarlo por el método de ordenamiento de inserción: (Valor 3 puntos)
