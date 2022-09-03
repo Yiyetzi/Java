@@ -11,46 +11,40 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 1. ¿Con qué método puedes evitar que el usuario modifique el tamaño de la
 ventana? (Valor 1 punto)
 
-        a. setResizable(true)
+    
         b. setResizable(false)
-        c. setNotResizable()
+   
         
 2. ¿Cuál es el código para cerrar un programa? (Valor 1 punto)
 
-        a. exit(0)
-        b. System.exit()
+       
         c. System.exit(0)
         
 3. ¿Qué método es utilizado para establecer la visibilidad de un marco (Frame)?
 (Valor 1 punto)
 
         a. setVisible(true)
-        b. setVisible(false)
-        c. setVisible()
+        
         
 4. ¿Qué es Swing? (Valor 1 punto)
 
-        a. Un componente de AWT.
+
         b. Una librería de Java para la generación del GUI en aplicaciones.
-        c. Una librería de NetBeans.        
+          
         
 5. ¿Las casillas de verificación en Swing están implementadas para Java por la
 clase? (Valor 1 punto)
 
-        a. JScrollPanel
-        b. JRadioButton
         c. JCheckBox
         
 6. ¿Cuál es el significado de las siglas IDE en español? (Valor 1 punto)
  
         a. Entorno de Desarrollo Integrado
-        b. Espacio de Desarrollo Integrado
-        c. Entorno de Diseño Integrado
+       
         
 7. ¿Qué tipo de dato espera el método .setText de un jLabel? (Valor 1 punto)
 
-        a. Una variable de tipo Integer
-        b. Una variable de tipo Float
+        
         c. Una variable de tipo String
         
  8. De acuerdo al siguiente código, ¿qué se espera de su funcionamiento? (Valor 2
