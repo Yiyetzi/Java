@@ -36,9 +36,40 @@ para llegar a ella. (Valor 3 puntos)
 
 ![imagen](https://user-images.githubusercontent.com/91554777/187002220-d3015664-2d09-4733-aff2-475127482243.png)
 
-          TU RESPUESTA AQUI
           
-       d.20,40,50,30,80
+          
+                              import java.util.Arrays;
+
+                              public class OrBurbuja {
+
+                                  static void ordenamientoBurbuja(int arreglo[]){
+                                      int longitud =arreglo.length;
+
+                                      for(int i=0; i<longitud-1;i++)
+
+                                      for(int j=0; j<longitud-1;j++)
+
+                                       if(arreglo[j]>arreglo[j+1]){
+                                           int varAux =arreglo[j];
+                                           arreglo[j]=arreglo[j+1];
+                                           arreglo[j+1]=varAux;
+                                       }
+                                  }
+                                  public static void main(String[] args){
+                                      int[] datos={50,20,40,80,30};
+                                      System.out.println("Arreglo desordendo: ");
+                                      System.out.println(Arrays.toString(datos));
+                                      OrBurbuja.ordenamientoBurbuja(datos);
+                                      System.out.println("Arreglo ordendo de manera ascendente: ");
+                                      System.out.println(Arrays.toString(datos));
+                                  }
+                              }
+
+                    respuesta:
+                    Arreglo desordendo: 
+                    [50, 20, 40, 80, 30]
+                    Arreglo ordendo de manera ascendente: 
+                    [20, 30, 40, 50, 80]
 
           
 5. Se tiene el siguiente arreglo con 5 elementos, desarrolla el procedimiento para
