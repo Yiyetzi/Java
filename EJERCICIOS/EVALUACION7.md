@@ -70,4 +70,26 @@ siguiente procedimiento:
   siguiente mensaje: Perros actuales en la estética: “Número de
   perros”.
 
-            TU CODIGO AQUI
+                                                import java.util.ArrayList;
+                                                public class RecibeMascota {
+
+
+                                                        String nombreMascota,raza, tamano, nombrePropietario;
+                                                        int edad;
+
+                                                        public static void main(String[] args) {
+                                                            ArrayList<RecibeMascota>mascotasActuales = new ArrayList();            
+
+                                                            RecibeMascota mascota =new RecibeMascota();
+                                                            mascota.nombreMascota = "Frito";
+                                                            mascota.raza ="Perro Shih Tzu";              
+                                                            mascota.edad=3;
+                                                            mascota.tamano ="chico";
+                                                            mascota.nombrePropietario = "Luis Gonzalez";
+
+                                                            mascotasActuales.add(mascota);
+                                                            System.out.println("La cantidad de mascotas actuales en la estetica es:  "+mascotasActuales.size());
+                                                    }
+
+                                                }
+
